@@ -1,0 +1,1301 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sagada Gallery</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+
+  <link rel="stylesheet" href="style.css">
+
+
+<!-- ==================================================
+     1. RESPONSIVE BOOTSTRAP NAVBAR
+================================================== -->
+
+<nav class="navbar navbar-expand-lg sticky-top">
+
+    <div class="container">
+
+        <!-- Website Logo / Brand -->
+
+        <a class="navbar-brand" href="#home">
+            SAGA<span>DA</span>
+        </a>
+
+
+        <!-- Mobile Navbar Button -->
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarMenu">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+
+        <!-- Responsive Collapse -->
+
+        <div
+            class="collapse navbar-collapse"
+            id="navbarMenu">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">
+                        Gallery
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#categories">
+                        Categories
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">
+                        About
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+
+<!-- ==================================================
+     HERO / CAROUSEL
+================================================== -->
+
+<section
+    id="home"
+    class="hero">
+
+    <div
+        id="sagadaCarousel"
+        class="carousel slide"
+        data-bs-ride="carousel">
+
+
+        <!-- Carousel Indicators -->
+
+        <div class="carousel-indicators">
+
+            <button
+                type="button"
+                data-bs-target="#sagadaCarousel"
+                data-bs-slide-to="0"
+                class="active">
+            </button>
+
+            <button
+                type="button"
+                data-bs-target="#sagadaCarousel"
+                data-bs-slide-to="1">
+            </button>
+
+            <button
+                type="button"
+                data-bs-target="#sagadaCarousel"
+                data-bs-slide-to="2">
+            </button>
+
+        </div>
+
+
+        <div class="carousel-inner">
+
+
+            <!-- Slide 1 -->
+
+            <div class="carousel-item active">
+
+                <img
+                    src="3.jpg"
+                    alt="Welcome to Sagada">
+
+                <div class="carousel-caption">
+
+                    <h1>
+                        Discover Sagada
+                    </h1>
+
+                    <p>
+                        Explore the breathtaking landscapes,
+                        rich culture, and peaceful beauty of
+                        Sagada, Mountain Province.
+                    </p>
+
+                    <a
+                        href="#gallery"
+                        class="btn hero-btn">
+
+                        Explore Gallery
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Slide 2 -->
+
+            <div class="carousel-item">
+
+                <img
+                    src="light.jpg"
+                    alt="Kiltepan Viewpoint">
+
+                <div class="carousel-caption">
+
+                    <h1>
+                        Where Mountains Meet the Clouds
+                    </h1>
+
+                    <p>
+                        Experience the beautiful mountain
+                        views of Sagada.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Slide 3 -->
+
+            <div class="carousel-item">
+
+                <img
+                    src="falls.jpg"
+                    alt="Bomod-Ok Falls">
+
+                <div class="carousel-caption">
+
+                    <h1>
+                        Adventure Awaits
+                    </h1>
+
+                    <p>
+                        Discover waterfalls, caves,
+                        and natural wonders.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Previous Button -->
+
+        <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#sagadaCarousel"
+            data-bs-slide="prev">
+
+            <span class="carousel-control-prev-icon"></span>
+
+        </button>
+
+
+        <!-- Next Button -->
+
+        <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#sagadaCarousel"
+            data-bs-slide="next">
+
+            <span class="carousel-control-next-icon"></span>
+
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     2. CATEGORIES
+================================================== -->
+
+<section
+    id="categories"
+    class="text-center">
+
+    <div class="container">
+
+        <h2 class="section-title">
+            Explore Categories
+        </h2>
+
+        <p class="section-description mb-4">
+            Discover the different sights and experiences
+            that make Sagada special.
+        </p>
+
+
+        <button class="btn category-btn active">
+            All
+        </button>
+
+        <button class="btn category-btn">
+            Nature
+        </button>
+
+        <button class="btn category-btn">
+            Adventure
+        </button>
+
+        <button class="btn category-btn">
+            Culture
+        </button>
+
+        <button class="btn category-btn">
+            Landscape
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     3. IMAGE GALLERY
+================================================== -->
+
+<section id="gallery">
+
+    <div class="container">
+
+
+        <div class="text-center mb-5">
+
+            <h2 class="section-title">
+                Sagada Gallery
+            </h2>
+
+            <p class="section-description">
+                A visual showcase of the beautiful places
+                and cultural attractions of Sagada.
+            </p>
+
+        </div>
+
+
+
+        <!-- ============================================
+             RESPONSIVE GRID CONFIGURATION #1
+             col-12 col-md-6 col-lg-4
+        ============================================= -->
+
+        <div class="row g-4 mb-4">
+
+
+            <!-- IMAGE 1 -->
+
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <div class="card gallery-card">
+
+                    <div class="image-container">
+
+                        <img
+                            src="cave.jpg"
+                            class="gallery-image"
+                            alt="Sumaguing Cave"
+
+                            data-bs-toggle="modal"
+                            data-bs-target="#imageModal"
+
+                            onclick="openModal(
+                                'images/cave.jpg',
+                                'Sumaguing Cave',
+                                'Sumaguing Cave is a famous limestone cave known for its impressive rock formations and underground adventure.'
+                            )">
+
+
+                        <div class="caption-overlay">
+                            Sumaguing Cave
+                        </div>
+
+                    </div>
+
+
+                    <div class="card-body">
+
+                        <span class="badge badge-sagada">
+                            Adventure
+                        </span>
+
+                        <h5 class="card-title mt-2">
+                            Sumaguing Cave
+                        </h5>
+
+                        <p>
+                            A famous limestone cave
+                            filled with unique rock formations.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- IMAGE 2 -->
+
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <div class="card gallery-card">
+
+                    <div class="image-container">
+
+                        <img
+                            src="falls.jpg"
+                            class="gallery-image"
+                            alt="Bomod-Ok Falls"
+
+                            data-bs-toggle="modal"
+                            data-bs-target="#imageModal"
+
+                            onclick="openModal(
+                                'images/falls.jpg',
+                                'Bomod-Ok Falls',
+                                'Bomod-Ok Falls is a beautiful waterfall surrounded by the mountains and natural landscapes of Sagada.'
+                            )">
+
+                        <div class="caption-overlay">
+                            Bomod-Ok Falls
+                        </div>
+
+                    </div>
+
+
+                    <div class="card-body">
+
+                        <span class="badge badge-sagada">
+                            Nature
+                        </span>
+
+                        <h5 class="card-title mt-2">
+                            Bomod-Ok Falls
+                        </h5>
+
+                        <p>
+                            A spectacular waterfall surrounded
+                            by beautiful mountain scenery.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- IMAGE 3 -->
+
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <div class="card gallery-card">
+
+                    <div class="image-container">
+
+                        <img
+                            src="view.jpg"
+                            class="gallery-image"
+                            alt="Kiltepan Viewpoint"
+
+                            data-bs-toggle="modal"
+                            data-bs-target="#imageModal"
+
+                            onclick="openModal(
+                                'images/view.jpg',
+                                'Kiltepan Viewpoint',
+                                'Kiltepan Viewpoint is known for its spectacular sunrise and breathtaking views of the mountains.'
+                            )">
+
+                        <div class="caption-overlay">
+                            Kiltepan Viewpoint
+                        </div>
+
+                    </div>
+
+
+                    <div class="card-body">
+
+                        <span class="badge badge-sagada">
+                            Landscape
+                        </span>
+
+                        <h5 class="card-title mt-2">
+                            Kiltepan Viewpoint
+                        </h5>
+
+                        <p>
+                            A scenic destination famous for
+                            mountain views and sunrise.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ============================================
+             RESPONSIVE GRID CONFIGURATION #2
+             col-12 col-sm-6 col-xl-3
+        ============================================= -->
+
+        <div class="row g-4 mb-4">
+
+
+            <!-- IMAGE 4 -->
+
+            <div class="col-12 col-sm-6 col-xl-3">
+
+                <div class="card gallery-card">
+
+                    <div class="image-container">
+
+                        <img
+                            src="cof.jpg"
+                            class="gallery-image"
+                            alt="Hanging Coffins"
+
+                            data-bs-toggle="modal"
+                            data-bs-target="#imageModal"
+
+                            onclick="openModal(
+                                'images/cof.jpg',
+                                'Hanging Coffins',
+                                'The Hanging Coffins are one of Sagada’s most recognizable cultural attractions and reflect traditional burial practices.'
+                            )">
+
+                        <div class="caption-overlay">
+                            Hanging Coffins
+                        </div>
+
+                    </div>
+
+
+                    <div class="card-body">
+
+                        <span class="badge badge-sagada">
+                            Culture
+                        </span>
+
+                        <h5 class="card-title mt-2">
+                            Hanging Coffins
+                        </h5>
+
+                        <p>
+                            A unique cultural attraction
+                            found in the cliffs of Sagada.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- IMAGE 5 -->
+
+            <div class="col-12 col-sm-6 col-xl-3">
+
+                <div class="card gallery-card">
+
+                    <div class="image-container">
+
+                        <img
+                            src="rice.jpg"
+                            class="gallery-image"
+                            alt="Sagada Rice Terraces"
+
+                            data-bs-toggle="modal"
+                            data-bs-target="#imageModal"
+
+                            onclick="openModal(
+                                'images/rice.jpg',
+                                'Sagada Rice Terraces',
+                                'The rice terraces showcase the agricultural traditions and beautiful mountain landscapes of Sagada.'
+                            )">
+
+                        <div class="caption-overlay">
+                            Rice Terraces
+                        </div>
+
+                    </div>
+
+
+                    <div class="card-body">
+
+                        <span class="badge badge-sagada">
+                            Landscape
+                        </span>
+
+                        <h5 class="card-title mt-2">
+                            Rice Terraces
+                        </h5>
+
+                        <p>
+                            Beautiful mountain terraces
+                            shaped by generations of farming.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- IMAGE 6 -->
+
+            <div class="col-12 col-sm-6 col-xl-3">
+
+                <div class="card gallery-card">
+
+                    <div class="image-container">
+
+                        <img
+                            src="welcome sagada.jpg"
+                            class="gallery-image"
+                            alt="Welcome to Sagada"
+
+                            data-bs-toggle="modal"
+                            data-bs-target="#imageModal"
+
+                            onclick="openModal(
+                                'images/welcome sagada.jpg',
+                                'Welcome to Sagada',
+                                'Welcome to Sagada, a peaceful mountain destination filled with beautiful landscapes and cultural attractions.'
+                            )">
+
+                        <div class="caption-overlay">
+                            Welcome to Sagada
+                        </div>
+
+                    </div>
+
+
+                    <div class="card-body">
+
+                        <span class="badge badge-sagada">
+                            Destination
+                        </span>
+
+                        <h5 class="card-title mt-2">
+                            Welcome to Sagada
+                        </h5>
+
+                        <p>
+                            Begin your journey through
+                            the peaceful beauty of Sagada.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- IMAGE 7 -->
+
+            <div class="col-12 col-sm-6 col-xl-3">
+
+                <div class="card gallery-card">
+
+                    <div class="image-container">
+
+                        <img
+                            src="cave.jpg"
+                            class="gallery-image"
+                            alt="Sagada Cave Adventure"
+
+                            data-bs-toggle="modal"
+                            data-bs-target="#imageModal"
+
+                            onclick="openModal(
+                                'images/cave.jpg',
+                                'Sagada Cave Adventure',
+                                'Experience the natural beauty of Sagada through its fascinating cave landscapes.'
+                            )">
+
+                        <div class="caption-overlay">
+                            Cave Adventure
+                        </div>
+
+                    </div>
+
+
+                    <div class="card-body">
+
+                        <span class="badge badge-sagada">
+                            Adventure
+                        </span>
+
+                        <h5 class="card-title mt-2">
+                            Cave Adventure
+                        </h5>
+
+                        <p>
+                            Discover the fascinating
+                            underground scenery of Sagada.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ============================================
+             RESPONSIVE GRID CONFIGURATION #3
+             col-6 col-md-4 col-lg-2
+        ============================================= -->
+
+        <div class="row g-4">
+
+
+            <!-- IMAGE 8 -->
+
+            <div class="col-6 col-md-4 col-lg-2">
+
+                <div class="card gallery-card">
+
+                    <div class="image-container">
+
+                        <img
+                            src="falls.jpg"
+                            class="gallery-image"
+                            alt="Waterfall Escape"
+
+                            data-bs-toggle="modal"
+                            data-bs-target="#imageModal"
+
+                            onclick="openModal(
+                                'images/falls.jpg',
+                                'Waterfall Escape',
+                                'Enjoy the peaceful atmosphere and natural beauty surrounding Sagada waterfalls.'
+                            )">
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Waterfall Escape
+                        </h5>
+
+                        <p>
+                            Peaceful mountain waters.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- IMAGE 9 -->
+
+            <div class="col-6 col-md-4 col-lg-2">
+
+                <div class="card gallery-card">
+
+                    <div class="image-container">
+
+                        <img
+                            src="view.jpg"
+                            class="gallery-image"
+                            alt="Mountain View"
+
+                            data-bs-toggle="modal"
+                            data-bs-target="#imageModal"
+
+                            onclick="openModal(
+                                'images/view.jpg',
+                                'Mountain View',
+                                'Enjoy the panoramic mountain scenery visible from Sagada viewpoints.'
+                            )">
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Mountain View
+                        </h5>
+
+                        <p>
+                            Breathtaking mountain scenery.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- IMAGE 10 -->
+
+            <div class="col-6 col-md-4 col-lg-2">
+
+                <div class="card gallery-card">
+
+                    <div class="image-container">
+
+                        <img
+                            src="rice.jpg"
+                            class="gallery-image"
+                            alt="Mountain Farming"
+
+                            data-bs-toggle="modal"
+                            data-bs-target="#imageModal"
+
+                            onclick="openModal(
+                                'images/rice.jpg',
+                                'Mountain Farming',
+                                'Sagada rice terraces represent the traditional agricultural landscapes of the Cordillera.'
+                            )">
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Mountain Farming
+                        </h5>
+
+                        <p>
+                            Traditional mountain agriculture.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- IMAGE 11 -->
+
+            <div class="col-6 col-md-4 col-lg-2">
+
+                <div class="card gallery-card">
+
+                    <div class="image-container">
+
+                        <img
+                            src="cof.jpg"
+                            class="gallery-image"
+                            alt="Sagada Culture"
+
+                            data-bs-toggle="modal"
+                            data-bs-target="#imageModal"
+
+                            onclick="openModal(
+                                'images/cof.jpg',
+                                'Sagada Culture',
+                                'Discover an important part of Sagada’s cultural heritage through its traditional burial practices.'
+                            )">
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Sagada Culture
+                        </h5>
+
+                        <p>
+                            Rich cultural heritage.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- IMAGE 12 -->
+
+            <div class="col-6 col-md-4 col-lg-2">
+
+                <div class="card gallery-card">
+
+                    <div class="image-container">
+
+                        <img
+                            src="welcome sagada.jpg"
+                            class="gallery-image"
+                            alt="Sagada Destination"
+
+                            data-bs-toggle="modal"
+                            data-bs-target="#imageModal"
+
+                            onclick="openModal(
+                                'images/welcome sagada.jpg',
+                                'Sagada Destination',
+                                'Sagada offers peaceful surroundings, beautiful landscapes, and memorable travel experiences.'
+                            )">
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Sagada Destination
+                        </h5>
+
+                        <p>
+                            A peaceful mountain getaway.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- IMAGE 13 -->
+
+            <div class="col-6 col-md-4 col-lg-2">
+
+                <div class="card gallery-card">
+
+                    <div class="image-container">
+
+                        <img
+                            src="cave.jpg"
+                            class="gallery-image"
+                            alt="Explore Sagada"
+
+                            data-bs-toggle="modal"
+                            data-bs-target="#imageModal"
+
+                            onclick="openModal(
+                                'images/cave.jpg',
+                                'Explore Sagada',
+                                'Explore the natural wonders hidden within the mountains of Sagada.'
+                            )">
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Explore Sagada
+                        </h5>
+
+                        <p>
+                            Nature and adventure.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     ABOUT
+================================================== -->
+
+<section
+    id="about"
+    class="about-section">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+
+            <div class="col-12 col-md-7">
+
+                <h2>
+                    About Sagada
+                </h2>
+
+                <p>
+                    Sagada is a peaceful mountain destination
+                    located in Mountain Province, Philippines.
+                </p>
+
+                <p>
+                    It is known for its breathtaking mountains,
+                    caves, waterfalls, rice terraces, viewpoints,
+                    and rich cultural traditions.
+                </p>
+
+            </div>
+
+
+            <div class="col-12 col-md-5">
+
+                <img
+                    src="welcome sagada.jpg"
+                    class="img-fluid rounded-4"
+                    alt="Sagada">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     CONTACT
+================================================== -->
+
+<section id="contact">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h2 class="section-title">
+                Contact
+            </h2>
+
+            <p class="section-description">
+                Have a question about our Sagada showcase?
+                Send us a message.
+            </p>
+
+        </div>
+
+
+        <div class="row justify-content-center">
+
+            <div class="col-12 col-md-8 col-lg-6">
+
+                <div class="contact-box">
+
+                    <form id="contactForm">
+
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Name
+                            </label>
+
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Enter your name"
+                                required>
+
+                        </div>
+
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Email
+                            </label>
+
+                            <input
+                                type="email"
+                                class="form-control"
+                                placeholder="Enter your email"
+                                required>
+
+                        </div>
+
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Message
+                            </label>
+
+                            <textarea
+                                class="form-control"
+                                rows="5"
+                                placeholder="Write your message"
+                                required>
+                            </textarea>
+
+                        </div>
+
+
+                        <button
+                            type="submit"
+                            class="btn submit-btn">
+
+                            Send Message
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     BOOTSTRAP MODAL
+================================================== -->
+
+<div
+    class="modal fade"
+    id="imageModal"
+    tabindex="-1"
+    aria-hidden="true">
+
+    <div
+        class="modal-dialog modal-lg modal-dialog-centered">
+
+        <div class="modal-content">
+
+
+            <!-- Modal Header -->
+
+            <div class="modal-header">
+
+                <h5
+                    class="modal-title"
+                    id="modalTitle">
+
+                    Sagada
+
+                </h5>
+
+                <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal">
+                </button>
+
+            </div>
+
+
+            <!-- Larger Image -->
+
+            <div class="modal-body p-0">
+
+                <img
+                    id="modalImage"
+                    class="modal-image"
+                    src=""
+                    alt="Sagada destination">
+
+            </div>
+
+
+            <!-- Description + Close Button -->
+
+            <div class="modal-footer">
+
+                <p
+                    id="modalDescription"
+                    class="me-auto mb-0">
+                </p>
+
+                <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal">
+
+                    Close
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- ==================================================
+     FOOTER
+================================================== -->
+
+<footer>
+
+    <h5>
+        SAGA​DA GALLERY || @all rights reserved 2026
+    </h5>
+
+   
+
+</footer>
+
+
+
+<!-- ==================================================
+     BOOTSTRAP JAVASCRIPT
+================================================== -->
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+
+<script>
+
+    /* =====================================
+       BOOTSTRAP MODAL
+    ===================================== */
+
+    function openModal(image, title, description) {
+
+        document.getElementById("modalImage").src = image;
+
+        document.getElementById("modalTitle").textContent = title;
+
+        document.getElementById("modalDescription").textContent =
+            description;
+
+    }
+
+
+    /* =====================================
+       CATEGORY BUTTON INTERACTION
+    ===================================== */
+
+    const categoryButtons =
+        document.querySelectorAll(".category-btn");
+
+    categoryButtons.forEach(function(button) {
+
+        button.addEventListener("click", function() {
+
+            categoryButtons.forEach(function(btn) {
+
+                btn.classList.remove("active");
+
+            });
+
+            this.classList.add("active");
+
+        });
+
+    });
+
+
+    /* =====================================
+       CONTACT BUTTON
+    ===================================== */
+
+    document.getElementById("contactForm")
+        .addEventListener("submit", function(event) {
+
+            event.preventDefault();
+
+            alert("Thank you for contacting us!");
+
+            this.reset();
+
+        });
+
+</script>
+
+
+</body>
+
+</html>
+```
